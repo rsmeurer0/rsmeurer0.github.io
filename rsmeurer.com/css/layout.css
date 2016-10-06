@@ -653,7 +653,7 @@ ul#nav li.current a { color: #11ABB0; }
 /* ------------------------------------------------------------------ */
 
 #publications {
-   background: #FFFFFF;
+   background: #e3e3e3;
    padding-top: 66px;
    padding-bottom: 48px;
 }
@@ -722,6 +722,52 @@ publications .button {
 #publications p span {
 	font-family: 'opensans-semibold', sans-serif; 
 	color: #D8D8D8;
+}
+
+#publications hr{
+    color: #053131;
+}
+
+/* ------------------------------------------------------------------
+/* g. Hobbies
+/* ------------------------------------------------------------------ */
+
+#hobbies {
+   background: #ffffff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#hobbies h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+#hobbies h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
+#hobbies h2 {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 1px;
+}
+
+#hobbies h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+#hobbies h4 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin-right: 35px;
+   margin-left: 35px;
 }
 
 /* ------------------------------------------------------------------
