@@ -285,7 +285,7 @@ ul#nav li.current a { color: #11ABB0; }
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   /*border-bottom: 1px solid #E8E8E8;*/
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -365,30 +365,45 @@ ul#nav li.current a { color: #11ABB0; }
     -moz-animation: spanish 2s ease;
     -webkit-animation: spanish 2s ease;
 }
-.photoshop {
+.c{
   	width: 60%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
+.python {
   	width: 55%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
+.bash {
+  	width: 55%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+.matlab {
   	width: 50%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.css {
+.labview {
   	width: 90%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
+.verilog {
   	width: 80%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
+}
+.html {
+  	width: 50%;
+  	-moz-animation: jquery 2s ease;
+  	-webkit-animation: jquery 2s ease;
+}
+.js {
+  	width: 50%;
+  	-moz-animation: jquery 2s ease;
+  	-webkit-animation: jquery 2s ease;
 }
 .jquery {
   	width: 50%;
