@@ -366,47 +366,47 @@ ul#nav li.current a { color: #11ABB0; }
     -webkit-animation: spanish 2s ease;
 }
 .c{
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	width: 80%;
+  	-moz-animation: c 2s ease;
+  	-webkit-animation: c 2s ease;
 }
 .python {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	width: 75%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
 }
 .bash {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	width: 60%;
+  	-moz-animation: bash 2s ease;
+  	-webkit-animation: bash 2s ease;
 }
 .matlab {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	width: 67%;
+  	-moz-animation: matlab 2s ease;
+  	-webkit-animation: matlab 2s ease;
 }
 .labview {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	width: 70%;
+  	-moz-animation: labview 2s ease;
+  	-webkit-animation: labview 2s ease;
 }
 .verilog {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	width: 50%;
+  	-moz-animation: verilog 2s ease;
+  	-webkit-animation: verilog 2s ease;
 }
 .html {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	width: 70%;
+  	-moz-animation: html 2s ease;
+  	-webkit-animation: html 2s ease;
 }
 .js {
   	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: js 2s ease;
+  	-webkit-animation: js 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 40%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
@@ -426,29 +426,41 @@ ul#nav li.current a { color: #11ABB0; }
   0%   { width: 0px;  }
   100% { width: 40%;  }
 }
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
+@-moz-keyframes c {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes bash {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes matlab {
+  0%   { width: 0px;  }
+  100% { width: 67%;  }
+}
+@-moz-keyframes labview {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes verilog {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-moz-keyframes html {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes js {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
 }
 
 @-webkit-keyframes portuguese {
@@ -467,29 +479,41 @@ ul#nav li.current a { color: #11ABB0; }
   0%   { width: 0px;  }
   100% { width: 40%;  }
 }
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
+@-webkit-keyframes c {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes bash {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes matlab {
+  0%   { width: 0px;  }
+  100% { width: 67%;  }
+}
+@-webkit-keyframes labview {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes verilog {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+@-webkit-keyframes html {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes js {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -832,6 +856,14 @@ publications .button {
 }
 #milestones blockquote:before { content: none; }
 #milestones blockquote p {
+   font-family: 'opensans-semibold', serif;
+   padding: 0;
+   font-size: 24px;
+   line-height: 48px;
+   color: #fff
+}
+
+#milestones li {
    font-family: 'opensans-semibold', serif;
    padding: 0;
    font-size: 24px;
