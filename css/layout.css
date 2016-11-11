@@ -956,6 +956,14 @@ publications .button {
    color: #EBEEEE;
    margin-bottom: 6px;
 }
+
+#contact h2 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
 #contact h1 span { display: none; }
 #contact h1:before {
    font-family: 'FontAwesome';
